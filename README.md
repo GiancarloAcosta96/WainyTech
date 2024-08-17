@@ -53,10 +53,28 @@ Finalmente, inicia el servidor de desarrollo de React:
 npm start
 npm run dev
 
-12. Uso de la Aplicación
+-- IMPORTANTE --
+Para visualizar la tabla con los datos, implementé un api para creación de usuario (solo backend)
+Si ingresan desde Swagger ingresen a este link
+http://localhost:5238/swagger/index.html
+
+Si es desde POSTMAN, solo pegar este url request
+http://localhost:5238/api/Usuario
+para la prueba pueden pegar insertar este objeto
+
+{
+  "name": "Usuario",
+  "userName": "UsuarioPrueba",
+  "email": "usuarioprueba@gmail.com",
+  "phoneNumber": "987654321",
+  "password": "prueba123",
+  "notification": true
+}
+
+13. Uso de la Aplicación
 Abre el navegador y navega a http://localhost:3000.
 
-13. Pruebas con Postman (Opcional)
+14. Pruebas con Postman (Opcional)
 Si deseas probar la API del backend de forma independiente, puedes usar Postman:
 
 Importa las colecciones de Postman en el proyecto para realizar pruebas CRUD en los endpoints del backend.
